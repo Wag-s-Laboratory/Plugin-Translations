@@ -1,0 +1,29 @@
+Version: ${project.version}
+
+InvalidArgs:
+  Minion: "&cArgomenti invalidi! Usa /minion <give/reload/debug/support> <tipo> <giocatore> <quantità>"
+Errors:
+  NoPerms: "&cNon hai abbastanza permessi!"
+  PlayerNotFound: "&cGiocatore offline!"
+  MinionNotFound: "&cMinion disattivato o inesistente"
+  NotYourMinion: "&cNon sei il proprietario!"
+  NotEnoughMoney: "&cNon hai abbastanza soldi!"
+  AlreadyMaxLevel: "&cIl minion è già al livello massimo"
+  NoPlayer: "&cNon puoi fare questo comando dal game!"
+Admin:
+  Give: "&eDato a %player% %number%x %type% minion"
+  Reloaded: "&aPlugin ricaricato in %time%ms!"
+General:
+  MinionPlaced: "&aHai piazzato un %type% minion!"
+  MinionBroken: "&aHai rotto un %type% minion!"
+  MinionRotated: "&aHai ruotato il minion di 90°"
+  AlreadyOccupied: "&cNon puoi piazzare un minion qui!"
+  Toggle:
+    Stopped: "&cHai messo in pausa il minion!"
+    Started: "&aHai fatto ripartire il minion!"
+  Healed: "&aHai curato il minion!"
+  AlreadyMaxHealth: "&aIl minion è già alla vita massima!"
+  LinkChest: "&eClicca sulla chest che vuoi linkare a questo minion! (Scrivi '%quit_string%' per annullare il processo di link)"
+  ChestLinked: "&aChest collegata!"
+  LinkCancelled: "&cOperazione annullata!"
+  MinionUpgraded: "&aHai upgradato il tuo minion!"
