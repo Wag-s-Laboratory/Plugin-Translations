@@ -1,0 +1,25 @@
+InvalidArgs:
+  Minion: "&cInvalid args! Use /minion <give> <type> <player> <quantity>"
+Errors:
+  NoPerms: "&cYou don't have enough permissions!"
+  PlayerNotFound: "&cThat player isn't online!"
+  MinionNotFound: "&cThat minion is disabled or inexistent"
+  NotYourMinion: "&cYou aren't the owner of that minion!"
+  NotEnoughMoney: "&cYou don't have enough money!"
+  AlreadyMaxLevel: "&cThe minion is already at maximum level"
+Admin:
+  Give: "&eGived to %player% %number%x %type% minion(s)"
+General:
+  MinionPlaced: "&aYou've placed a %type% minion!"
+  MinionBroken: "&aYou've broken %type% minion!"
+  MinionRotated: "&aYou've rotated the minion by 90°"
+  AlreadyOccupied: "&cYou can't place a minion here!"
+  Toggle:
+    Stopped: "&cYou've stopped the minion!"
+    Started: "&aYou've started the minion!"
+  Healed: "&aYou've healed the minion!"
+  AlreadyMaxHealth: "&aThe minion is already at the max health!"
+  LinkChest: "&eClick on a chest you want to link with this minion! (Write '%quit_string%' to leave the linking process)"
+  ChestLinked: "&aChest linked!"
+  LinkCancelled: "&cYou've stopped the linking process!"
+  MinionUpgraded: "&aYou've upgraded your minion!"
