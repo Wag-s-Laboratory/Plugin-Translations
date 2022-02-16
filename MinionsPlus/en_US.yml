@@ -1,5 +1,7 @@
+Version: ${project.version}
+
 InvalidArgs:
-  Minion: "&cInvalid args! Use /minion <give> <type> <player> <quantity>"
+  Minion: "&cInvalid args! Use /minion <give/reload/debug/support> <type> <player> <quantity>"
 Errors:
   NoPerms: "&cYou don't have enough permissions!"
   PlayerNotFound: "&cThat player isn't online!"
@@ -7,8 +9,10 @@ Errors:
   NotYourMinion: "&cYou aren't the owner of that minion!"
   NotEnoughMoney: "&cYou don't have enough money!"
   AlreadyMaxLevel: "&cThe minion is already at maximum level"
+  NoPlayer: "&cYou can't use this command in game!"
 Admin:
   Give: "&eGived to %player% %number%x %type% minion(s)"
+  Reloaded: "&aThe plugin has been reloaded in %time%ms!"
 General:
   MinionPlaced: "&aYou've placed a %type% minion!"
   MinionBroken: "&aYou've broken %type% minion!"
