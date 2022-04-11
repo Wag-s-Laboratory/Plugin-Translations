@@ -1,0 +1,53 @@
+# Archivo de mensajes para EconomyPlus
+#
+# Puedes usar %money% para señalar el dinero y %money_formatted% Para ver el dinero pero con formato (K, M, B, etc.)!
+#
+# Mensajes generales
+NoConsole: "&cNo puedes hacer eso desde la consola!"
+NoPlayer: "&cNo puedes hacer eso desde el juego!"
+NoPerms: "&cNo cuentas con los permisos suficientes!"
+Reload: "&aRecargadas todas las configs del plugin en: %time%ms!"
+PlayerNotFound: "&cJugador no encontrado!"
+
+# Argumentos invalidos
+InvalidArgs:
+  Main: "&cArgumentos invalidos! /economyplus <debug/help/reload/convert/exclude/hologram>"
+  Eco: "&cArgumentos invalidos! /eco <jugador> <set/give/take/reset> <dinero>"
+  Balance: "&cArgumentos invalidos! /bal <jugador>"
+  Pay: "&cArgumentos invalidos! /pay <jugador> <dinero>"
+  Bank: "&cArgumentos invalidos! /bank <withdraw/deposit/admin> <set/get> <jugador> <dinero>"
+
+# Dinero recargado
+Money:
+  Done: "&aAccion competada con éxito!"
+  Refreshed: "&eTu dinero ha sido refrescado! Ahora cuentas con %money%$!"
+  Reset: "&cTu dinero ha sido reseteado!"
+
+# /bal
+Balance:
+  Self: "&aActualmente cuentas con %money%$!"
+  Others: "&a%player% cuenta con %money%$!"
+
+# /pay
+Pay:
+  NoSelf: "&cNo puedes pagarte a ti mismo!"
+  NoMoney: "&CNo cuentas con el dinero suficiente!"
+  Self: "&7Le has enviado &c%money%$ &7a &c%player%&7!"
+  Target: "&7Has recibido &a%money%$ &7de &a%player%&7!"
+  DisabledPayments: "&cEl jugador actualmente no esta aceptando pagos"
+  Toggle:
+    Enabled: "&cHas desactivado los pagos hacia ti!"
+    Disabled: "&aHas activado los pagos hacia ti!"
+
+# /bank
+Bank:
+  Disabled: "&cEl banco esta deshabilitado!"
+  NoMoney: "&cNo cuentas con el dinero suficiente en tu banco!"
+  Deposit: "&eHas depositado %money%$!"
+  Withdraw: "&eHas retirado %money%$!"
+  Self: "&aCuentas con %money%$ en tu banco!"
+  Interests: "&aHas recibido un interes de el %percentage%%!"
+  Admin:
+    Get: "&a%player% tiene %money% en el banco!"
+    Set: "&eLe has cambiado el dinero del banco de %player% a %money%"
+    Refreshed: "&eTu banco ha sido recargado, actualmente cuentas con %money% en el banco"

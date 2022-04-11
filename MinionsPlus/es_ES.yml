@@ -1,0 +1,29 @@
+Version: ${project.version}
+
+InvalidArgs:
+  Minion: "&cArgumentos invalidos! Intenta usar /minion <give/reload/debug/support> <tipo> <jugador> <cantidad>"
+Errors:
+  NoPerms: "&cNo cuentas con los permisos suficientes!"
+  PlayerNotFound: "&cEse jugador no esta conectado!"
+  MinionNotFound: "&cEse minion esta deshabilitado o no existe."
+  NotYourMinion: "&cNo eres el dueño de ese minion!"
+  NotEnoughMoney: "&cNo cuentas con el dinero suficiente!"
+  AlreadyMaxLevel: "&cEl minion esta a nivel maximo."
+  NoPlayer: "&cNo puedes usar este comando en el juego!"
+Admin:
+  Give: "&eLe has dado a %player% %number%x minion(s) tipo %type% "
+  Reloaded: "&aEl plugin ha recargado todas las configs en: %time%ms!"
+General:
+  MinionPlaced: "&aHas colocado un minion de tipo %type%!"
+  MinionBroken: "&aHas eliminado a un minion de tipo %type%!"
+  MinionRotated: "&aHas rotado el minion 90°"
+  AlreadyOccupied: "&cNo puedes poner un minion aca!"
+  Toggle:
+    Stopped: "&cHas parado el minion!"
+    Started: "&aHas iniciado el minion!"
+  Healed: "&aHas curado el minion!"
+  AlreadyMaxHealth: "&aEl minion tiene la vida maxima!"
+  LinkChest: "&eClick al cofre al que quieras vincular este minion! (Escribe: '%quit_string%' para cancelar/acabar este proceso)"
+  ChestLinked: "&aChest linked!"
+  LinkCancelled: "&cHas parado el proceso de vinculacion!"
+  MinionUpgraded: "&aHas mejorado tu minion!"
