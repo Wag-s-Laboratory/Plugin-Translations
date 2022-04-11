@@ -1,0 +1,53 @@
+# Messages file for EconomyPlus
+#
+# You can use %money% and %money_formatted% (Where you see %money%)!
+#
+# General messages
+NoConsole: "&cNo puedes hacer esto desde la consola!"
+NoPlayer: "&cNo puedes hacer esto desde el juego!"
+NoPerms: "&cYou don't have enough permissions!"
+Reload: "&aRecargadas todas las configuraciones del plugin en: %time%ms!"
+PlayerNotFound: "&cJugador no encontrado!"
+
+# Messages for the invalid args
+InvalidArgs:
+  Main: "&cArgumentos invalidos! /economyplus <debug/help/reload/convert/exclude/hologram>"
+  Eco: "&cArgumentos invalidos! /eco <player> <set/give/take/reset> <money>"
+  Balance: "&cArgumentos invalidos! /bal <player>"
+  Pay: "&cArgumentos invalidos! /pay <player> <money>"
+  Bank: "&cArgumentos invalidos! /bank <withdraw/deposit/admin> <set/get> <player> <moneys>"
+
+# Moneys refreshed
+Money:
+  Done: "&aAcción ejecutada con éxito!"
+  Refreshed: "&eTu dinero ha sido recargado, Actualmente cuentas con: %money%$!"
+  Reset: "&cTu dinero ha sido reiniciado al dinero inicial!"
+
+# /bal
+Balance:
+  Self: "&aActualmente cuentas con: %money%$!"
+  Others: "&a%player% cuenta con: %money%$!"
+
+# /pay
+Pay:
+  NoSelf: "&cNo te puedes enviar dinero a ti mismo!"
+  NoMoney: "&CNo tienes dinero suficiente!"
+  Self: "&7Le has enviado &c%money%$ &7a &c%player%&7!"
+  Target: "&7Has recibido &a%money%$ &7de &a%player%&7!"
+  DisabledPayments: "&cEl jugador no acepta pagos actualmente."
+  Toggle:
+    Enabled: "&cHas desactivado los pagos hacia ti!"
+    Disabled: "&aHas activado los pagos hacia ti!"
+
+# /bank
+Bank:
+  Disabled: "&cEl banco esta desactivado!"
+  NoMoney: "&cNo cuentas con el dinero suficiente en el banco!"
+  Deposit: "&eHas depositado %money%$!"
+  Withdraw: "&eHas retirado %money%$!"
+  Self: "&aActualmente cuentas con %money%$ en tu cuenta bancaria!"
+  Interests: "&aHas recibido un interes del %percentage%%!"
+  Admin:
+    Get: "&a%player% cuenta con %money% en su cuenta bancaria!"
+    Set: "&eHas puesto el dinero bancario de %player% en %money%"
+    Refreshed: "&eTu dinero bancario ha sido refrescado, actualmente cuentas con %money%"
